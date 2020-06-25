@@ -23,9 +23,9 @@ O Jint usa a versão 5.
 
 ## MetroFramework
 
-O MetroFramework é usado para adiciona visuais moderno no Windows Forms.
+O MetroFramework é usado para adicionar visuais moderno no Windows Forms.
 
-O FormJS usa essa biblioteca no module Forms
+O FormJS usa essa biblioteca no module `Forms`.
 
 Github: https://github.com/thielj/MetroFramework
 
@@ -34,12 +34,12 @@ Nuget: https://www.nuget.org/packages/MetroModernUI/
 ## Perfomance
 
 Simple Project:
-- FormJS - 4MB
+- FormJS - 5MB
 - ConsoleJS - 3MB
 
 ## Como usar o FormJS?
 
-Para inicializar o FormsJS você precisa chama a função `Start` contendo no parâmetro o código JS
+Para inicializar o FormsJS você precisa chama a função `Start` contendo no parâmetro o código JS.
 ```cs
 internal class MainApp
 {
@@ -58,7 +58,9 @@ internal class MainApp
 ```
 
 ## Como usar o ConsoleJS?
-Para inicializar o ConsoleJS você precisa chama a função `Start` contendo no parâmetro o código JS
+Para inicializar o ConsoleJS você precisa chama a função `Start` contendo no parâmetro o código JS.
+
+Exemplo:
 ```cs
 internal class MainApp
 {
@@ -72,15 +74,15 @@ internal class MainApp
     }
 }
 ```
-**Curiosidade**: O uso correto é System.Console, mas você também pode usa System.console
+**Curiosidade**: O uso correto é System.Console, mas você também pode usar System.console
 
 ## Como instalar o FormJS e o ConsoleJS?
 
-Você precisa ir na parte release nesse projeto.
+Você precisa ir na parte do release nesse projeto.
 
 Os arquivos são:
-1. FormJS.zip
-2. ConsoleJS.zip
+- FormJS.zip
+- ConsoleJS.zip
 
 ## Licença
 
