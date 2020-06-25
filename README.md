@@ -78,7 +78,8 @@ internal class MainApp
 
 ## Como instalar o FormJS e o ConsoleJS?
 
-Você precisa ir na parte do release nesse projeto.
+
+[Download](https://github.com/MauryDev/JS.NET/releases)
 
 Os arquivos são:
 - FormJS.zip
