@@ -34,8 +34,8 @@ Nuget: https://www.nuget.org/packages/MetroModernUI/
 ## Perfomance
 
 Simple Project:
-FormJS - 4MB
-ConsoleJS - 3MB
+- FormJS - 4MB
+- ConsoleJS - 3MB
 
 ## Como usar o FormJS?
 
@@ -79,8 +79,8 @@ internal class MainApp
 Você precisa ir na parte release nesse projeto.
 
 Os arquivos são:
-1- FormJS.zip
-2- ConsoleJS.zip
+1. FormJS.zip
+2. ConsoleJS.zip
 
 ## Licença
 
