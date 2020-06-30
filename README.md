@@ -8,6 +8,7 @@ JS.NET é uma biblioteca C# que executa códigos JavaScript para Windows Forms e
 
 - Jint
 - MetroFramework
+- Esprima.NET
 
 ## Jint
 
@@ -21,6 +22,12 @@ Nuget: https://www.nuget.org/packages/Jint
 
 O Jint usa a versão 5.
 
+## Esprima.NET
+
+Github: https://github.com/sebastienros/esprima-dotnet
+
+Nuget: https://www.nuget.org/packages/esprima
+
 ## MetroFramework
 
 O MetroFramework é usado para adicionar visuais moderno no Windows Forms.
@@ -33,9 +40,11 @@ Nuget: https://www.nuget.org/packages/MetroModernUI/
 
 ## Perfomance
 
-Simple Project:
-- FormJS - 5MB
-- ConsoleJS - 3MB
+Hello World:
+| Library | Memory Usage | Max CPU | 
+| :-------------: |:-------------:| :-----:|
+| FormJS |  |  |
+| ConsoleJS | 3MB | 2 |
 
 ## Como usar o FormJS?
 
@@ -66,15 +75,12 @@ internal class MainApp
 {
     public static void Main(string[] args)
     {
-        FormsJS.Start(@"
-            var System = require(""System"")
-            var Console = System.Console
-            Console.WriteLine(""Hello World!"")
+        ConsoleJS.Start(@"
+            console.log('Hello World!')
         ")
     }
 }
 ```
-**Curiosidade**: O uso correto é System.Console, mas você também pode usar System.console
 
 ## Como instalar o FormJS e o ConsoleJS?
 
